@@ -1,0 +1,218 @@
+[
+  {
+    "id": "L001",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L002",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L003",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L004",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "半日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L005",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "半日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L006",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "予定",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L007",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "時間",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L008",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L009",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L010",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L011",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取消",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L012",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L013",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "半日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L014",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L015",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L016",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "原記録の区分が空欄",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L017",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "半日（0.5日）",
+    "status": "取得済み",
+    "description": "申請は半日、明細は1日相当の数量。訂正内容の決定が必要。"
+  },
+  {
+    "id": "L018",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L019",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "申請日のみ記録。取得日は空欄で、取得の事実は未確認。"
+  },
+  {
+    "id": "L020",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "半日",
+    "status": "取得済み",
+    "description": "承認は記録されているが、本人申請の記録がない。"
+  },
+  {
+    "id": "L021",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L022",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L023",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "時間",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L024",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "予定",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L025",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L026",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  },
+  {
+    "id": "L027",
+    "applicationDate": "2026-04-02",
+    "approver": "勤怠担当者",
+    "unit": "1日",
+    "status": "取得済み",
+    "description": "架空の申請・承認記録。実際の原記録ではありません。"
+  }
+]

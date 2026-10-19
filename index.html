@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>年休明細の照合デモ</title><link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script></head>
+<body>
+<header><div class="brand">公開デモ <span>サンプル年休社 / 架空データ</span></div><h1>年休明細の取得済み・確認待ち照合</h1><p>コードで分け、AIの説明を読み、人が根拠を確認する。</p></header>
+<main>
+<div class="notice">AIの出力例を再生しています。その場でAIを呼んでいません。入力を変えてもAIは再処理しません。</div>
+<p class="scope">不足日数は判定時点までの取得済みと5日の差で、期間末の判定や法令上の判定ではありません。「確認済み」は画面上の記録です。管理簿の訂正や労務判断ではありません。前倒し・分割付与、基準日の統一、個別の就業規則の判断は対象外です。労務判断は専門家に確認してください。法令適合・集計の正確さ・時間短縮・負担軽減の効果を示すものではありません。</p>
+<div class="toolbar"><label>サンプル <select id="sample"><option>標準：社員7人・明細27行</option></select></label><button id="reset">サンプルを読み直す</button><label>判定時点 <input id="asof" type="date"></label><label>集計方式 <select id="mode"><option value="fixed">修正版：確認待ちを残す</option><option value="initial">初版：確認待ちを0日として消す（失敗例）</option></select></label></div>
+<nav aria-label="作業の流れ"><button data-view="summary" class="active">1 集計・想定との照合</button><button data-view="details">2 明細・根拠の確認</button><button data-view="ai">3 AIの結果・貼り付け</button><button data-view="export">4 確認待ち・書き出し</button></nav>
+<div id="comparison"></div><section id="content" aria-live="polite"></section>
+<footer>AI：説明と依頼の下書き / コード：期間・算入・日数・状態 / 人：取得の事実と根拠の確認、訂正内容の決定。取得日をAIやコードが決めることはありません。外部への送信・管理簿の更新はありません。操作はこのタブ内のみで、再読込すると消えます。</footer>
+</main>
+<dialog id="editor"><form id="editform"><h2>明細の追加・編集</h2><p>保存すると確認待ちに戻り、根拠の閲覧記録と人の確認状態を解除します。</p><input name="id" type="hidden"><div class="fields"><label>社員<select name="employee"></select></label><label>取得日<input name="date" type="date"></label><label>取得区分<select name="unit"><option value="">空欄</option><option>1日</option><option>半日</option><option>時間</option></select></label><label>数量<input name="amount" type="number" min="0" max="8" step="0.5"></label><label>状態<select name="status"><option value="">空欄</option><option>取得済み</option><option>予定</option><option>取消</option></select></label><label>取得元<select name="source"><option value="">空欄</option><option>当年</option><option>繰越</option></select></label><label>申請者<select name="requester"><option>本人</option><option>不明</option></select></label><label>備考<input name="note" maxlength="300"></label></div><div class="actions"><button type="submit">明細を保存</button><button type="button" id="cancel">閉じる</button></div></form></dialog>
+<div id="toast" role="status"></div>
+</body></html>

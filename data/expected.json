@@ -1,0 +1,184 @@
+{
+  "label": "照合用に先に作った想定",
+  "rows": [
+    {
+      "id": "L001",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L002",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L003",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L004",
+      "category": "取得済み",
+      "days": 0.5
+    },
+    {
+      "id": "L005",
+      "category": "取得済み",
+      "days": 0.5
+    },
+    {
+      "id": "L006",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L007",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L008",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L009",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L010",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L011",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L012",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L013",
+      "category": "取得済み",
+      "days": 0.5
+    },
+    {
+      "id": "L014",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L015",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L016",
+      "category": "確認待ち",
+      "days": null
+    },
+    {
+      "id": "L017",
+      "category": "確認待ち",
+      "days": null
+    },
+    {
+      "id": "L018",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L019",
+      "category": "確認待ち",
+      "days": null
+    },
+    {
+      "id": "L020",
+      "category": "確認待ち",
+      "days": null
+    },
+    {
+      "id": "L021",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L022",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L023",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L024",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L025",
+      "category": "算入しない",
+      "days": 0
+    },
+    {
+      "id": "L026",
+      "category": "取得済み",
+      "days": 1
+    },
+    {
+      "id": "L027",
+      "category": "取得済み",
+      "days": 1
+    }
+  ],
+  "employees": [
+    {
+      "employee": "A",
+      "days": 4,
+      "pending": 0,
+      "shortage": 1
+    },
+    {
+      "employee": "B",
+      "days": 3,
+      "pending": 0,
+      "shortage": 2
+    },
+    {
+      "employee": "C",
+      "days": 1.5,
+      "pending": 0,
+      "shortage": 3.5
+    },
+    {
+      "employee": "D",
+      "days": 1,
+      "pending": 2,
+      "shortage": 4
+    },
+    {
+      "employee": "E",
+      "days": 1,
+      "pending": 2,
+      "shortage": 4
+    },
+    {
+      "employee": "F",
+      "days": 2,
+      "pending": 0,
+      "shortage": null
+    },
+    {
+      "employee": "G",
+      "days": 2,
+      "pending": 0,
+      "shortage": 3
+    }
+  ]
+}

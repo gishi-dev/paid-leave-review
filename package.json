@@ -1,0 +1,11 @@
+{
+  "name": "paid-leave-review",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "架空の年休明細の取得済み・確認待ち照合デモ",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "start": "node server.mjs", "check": "node --check server.mjs && node --check app.js && node --check calculation.js" },
+  "dependencies": {}
+}

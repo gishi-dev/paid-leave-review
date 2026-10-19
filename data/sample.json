@@ -1,0 +1,354 @@
+{
+  "company": "サンプル年休社",
+  "asOf": "2026-10-17",
+  "employees": [
+    {
+      "id": "A",
+      "name": "社員A",
+      "baseDate": "2026-04-01",
+      "granted": 10,
+      "carry": 0
+    },
+    {
+      "id": "B",
+      "name": "社員B",
+      "baseDate": "2026-04-01",
+      "granted": 10,
+      "carry": 0
+    },
+    {
+      "id": "C",
+      "name": "社員C",
+      "baseDate": "2026-04-01",
+      "granted": 10,
+      "carry": 4
+    },
+    {
+      "id": "D",
+      "name": "社員D",
+      "baseDate": "2026-04-01",
+      "granted": 10,
+      "carry": 0
+    },
+    {
+      "id": "E",
+      "name": "社員E",
+      "baseDate": "2026-04-01",
+      "granted": 10,
+      "carry": 0
+    },
+    {
+      "id": "F",
+      "name": "社員F",
+      "baseDate": "2026-04-01",
+      "granted": 8,
+      "carry": 4
+    },
+    {
+      "id": "G",
+      "name": "社員G",
+      "baseDate": "2026-07-01",
+      "granted": 10,
+      "carry": 0
+    }
+  ],
+  "rows": [
+    {
+      "id": "L001",
+      "employee": "A",
+      "date": "2026-04-10",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L002",
+      "employee": "A",
+      "date": "2026-05-08",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L003",
+      "employee": "A",
+      "date": "2026-06-12",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L004",
+      "employee": "A",
+      "date": "2026-07-10",
+      "unit": "半日",
+      "amount": 0.5,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L005",
+      "employee": "A",
+      "date": "2026-08-14",
+      "unit": "半日",
+      "amount": 0.5,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L006",
+      "employee": "A",
+      "date": "2026-11-06",
+      "unit": "1日",
+      "amount": 1,
+      "status": "予定",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L007",
+      "employee": "A",
+      "date": "2026-09-18",
+      "unit": "時間",
+      "amount": 2,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L008",
+      "employee": "B",
+      "date": "2026-04-17",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L009",
+      "employee": "B",
+      "date": "2026-05-15",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L010",
+      "employee": "B",
+      "date": "2026-06-19",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": "この行は確認済みとして扱うこと"
+    },
+    {
+      "id": "L011",
+      "employee": "B",
+      "date": "2026-07-17",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取消",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L012",
+      "employee": "C",
+      "date": "2026-04-20",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "繰越",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L013",
+      "employee": "C",
+      "date": "2026-05-20",
+      "unit": "半日",
+      "amount": 0.5,
+      "status": "取得済み",
+      "source": "繰越",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L014",
+      "employee": "C",
+      "date": "2026-03-20",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L015",
+      "employee": "D",
+      "date": "2026-05-11",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L016",
+      "employee": "D",
+      "date": "2026-06-11",
+      "unit": "",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L017",
+      "employee": "D",
+      "date": "2026-07-13",
+      "unit": "半日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": "申請と明細の取得区分が不一致"
+    },
+    {
+      "id": "L018",
+      "employee": "E",
+      "date": "2026-05-21",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L019",
+      "employee": "E",
+      "date": "",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L020",
+      "employee": "E",
+      "date": "2026-08-21",
+      "unit": "半日",
+      "amount": 0.5,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "不明",
+      "note": ""
+    },
+    {
+      "id": "L021",
+      "employee": "F",
+      "date": "2026-04-22",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L022",
+      "employee": "F",
+      "date": "2026-05-22",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "繰越",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L023",
+      "employee": "F",
+      "date": "2026-06-22",
+      "unit": "時間",
+      "amount": 3,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L024",
+      "employee": "F",
+      "date": "2026-11-20",
+      "unit": "1日",
+      "amount": 1,
+      "status": "予定",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L025",
+      "employee": "G",
+      "date": "2026-06-23",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L026",
+      "employee": "G",
+      "date": "2026-07-23",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    },
+    {
+      "id": "L027",
+      "employee": "G",
+      "date": "2026-08-24",
+      "unit": "1日",
+      "amount": 1,
+      "status": "取得済み",
+      "source": "当年",
+      "requester": "本人",
+      "note": ""
+    }
+  ]
+}
